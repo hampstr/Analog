@@ -7,8 +7,56 @@
     <link rel="icon" type="image/x-icon" href="ANALOGLOGO.png">
     <title>ANALOG - Tutorial</title>
 </head>
-<body>
-    
-   <script src='tutorial.js'></script>
+<body style="overflow-x: hidden;">
+    <div id="titleWrapper" class="flex alignCenter justifyCenter fullW">
+        <h1>TUTORIAL</h1>
+    </div>
+    <div id="slideWrapper">
+        <div class="slide">
+            <h1>1</h1>
+            <p>
+                Leave the tutorial and press Play 
+            </p>
+        </div>
+
+        <div class="slide">
+            <h1>2</h1>
+            <p>
+                Look at the clock and guess the time. 
+                <br>
+                <br>
+                <strong>The minute will ALWAYS be a multiple of <i>5</i></strong>
+            </p>
+        </div>
+
+        <div class="slide">
+            <h1>3</h1>
+            <p>
+                In the 2 input boxes type in your guess, hour in hour and minute in minute. Then press the <strong>Enter</strong> button
+            </p>
+        </div>
+
+        <div class="slide">
+            <h1>4</h1>
+            <p>
+                Keep guessing until you get it. If either the hour or minute is correct, the game will tell you and highlight the box in <span style="color: rgb(17, 135, 2); font-size: 1.2em;">green</span>
+            </p>
+        </div>
+
+        <div class="slide">
+            <h1>5</h1>
+            <p>
+                Once you guess it the game will automatically restart
+            </p>
+        </div>
+    </div>
+
+    <div id="tutBackWrapper" class="flex fullW justifyCenter alignCenter">
+        <button id="tutBack">
+            Back
+        </button>
+    </div>
+
+    <script src='tutorial.js'></script>
 </body>
 </html>
