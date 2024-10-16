@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icon" href="ANALOGLOGO.png">
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <title>ANALOG - In Game</title>
 </head>
-<body style="display: flex; height: 100vh">
+<body style="display: flex; height: 100vh; user-select: none;">
     
     <div id="mainWrapper">
         <div id="inputWrapper">
             <input type="number" id="hourInput" class="gameInput" placeholder="HOUR">
             <input type="number" id="minuteInput" class="gameInput" placeholder="MINUTE">
+            <button id="enter">
+                Enter
+            </button>
         </div> 
         <div id="backButtonWrapper">
+            
             <button id="backButton">
                 BACK
             </button>
